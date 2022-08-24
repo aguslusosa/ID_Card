@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    background-image: url(Fondo_rosa.jpg);
+    background-size: 100%;
+}
+.presentacion{
+    display: flex;
+    width: 800px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+    align-items: center;
+    justify-content: center;
+}
+.descripcion{
+   
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}
+.foto{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 30px;
+}
+.foto img{
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.foto h2{
+    color:crimson;
+}
+.descripcion p{
+    margin: 20px 30px;
+}
+.redes{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.redsoc{
+    display: inline-block;
+    padding: 0 25px;
+    color:crimson;
+    font-size: 20px;  
+}
